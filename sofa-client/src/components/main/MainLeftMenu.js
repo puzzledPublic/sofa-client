@@ -14,9 +14,7 @@ const MenuItem = styled(Link)`
 
 const MainLeftMenuComponent = () => (
     <MainLeftMenu>
-        <MenuItem to="/board">
-            Board
-        </MenuItem>
+        <MenuItem to="/board">Board</MenuItem>
     </MainLeftMenu>
 );
 

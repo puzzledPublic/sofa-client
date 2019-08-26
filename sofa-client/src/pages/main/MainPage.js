@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import HeaderContainer from '../../containers/header/HeaderContainer';
 import MainTemplate from '../../components/main/MainTemplate';
 
 const MainPage = styled.div`
@@ -12,7 +11,6 @@ const MainPage = styled.div`
 
 const MainPageComponent = () => (
     <MainPage>
-        <HeaderContainer/>
         <MainTemplate/>
     </MainPage>
 );

@@ -4,6 +4,7 @@ import {Route, Switch} from 'react-router-dom';
 
 import MainPage from './pages/main';
 import ErrorPage from './pages/error';
+import HeaderContainer from './containers/header/HeaderContainer';
 
 const Entrance = styled.div`
   display: flex;
@@ -16,6 +17,7 @@ const Entrance = styled.div`
 function App() {
   return (
     <Entrance>
+      <HeaderContainer/>      
       <Switch>
         <Route exact path="/" component={MainPage}/>
         <Route component={ErrorPage}/>

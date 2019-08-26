@@ -6,6 +6,7 @@ import HeaderLink from './HeaderLink';
 const Header = styled.div`
     display: flex;
     height: 2.7rem;
+    border-bottom: 1px solid black;
 `;
 
 const HeaderLeft = styled.div`
